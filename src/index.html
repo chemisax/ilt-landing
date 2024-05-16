@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <title>I ♡ transcriptions</title>
+
+        <meta property="og:title" content="I ♡ captions">
+        <meta property="og:description" content="Automatiza el trabajo de transcripción de audio y video usando mecanismos de machine learning e inteligencia artificial.">
+        <meta property="og:image" content="./assets/images/ogimage.jpg">
+        <meta property="og:url" content="https://ilovetranscriptions.com">
+        <meta property="og:type" content="website">
+
+        <!-- Style CSS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" >
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+        <link
+            rel="shortcut icon"
+            href="assets/images/favicon.png"
+            type="image/png"
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+            rel="stylesheet"
+        >
+        <link
+            href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap"
+            rel="stylesheet"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/line-awesome/css/line-awesome.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/bootstrap/css/bootstrap.min.css"
+        >
+        <link
+            rel="stylesheet"
+            href="assets/libs/swiper/swiper-bundle.min.css"
+        >
+        <link rel="stylesheet" href="assets/css/style.css" >
+        <style>
+            .sala-dark-scheme .logo-light {
+                display: none;
+            }
+
+            .sala-dark-scheme .logo-dark {
+                display: block;
+            }
+
+            .logo-dark {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="preload" class="preload"><div class="spin"></div></div>
+            <!-- BEGIN SITE HEADER -->
+            <header id="header" class="site-header is-transparent">
+                <div class="container-fluid">
+                    <div class="row flex-align-c inner">
+                        <div class="col-lg-3 col-6">
+                            <div class="header-left flex flex-align-c">
+                                <div class="canvas-menu">
+                                    <div class="icon">
+                                        <a href="#">
+                                            <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <g   stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-50.000000, -33.000000)" fill="#111111">
+                                                        <g id="off-menu" transform="translate(50.000000, 28.000000)">
+                                                            <g id="icon-menu" transform="translate(0.000000, 5.000000)">
+                                                                <rect id="Rectangle-1" x="0" y="0" width="30" height="3" rx="1.5"></rect>
+                                                                <rect id="Rectangle-2" x="0" y="11" width="20" height="3" rx="1.5"></rect>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="logo">
+                                    <a href="/">
+                                        <img src="./assets/images/logo-dark.png" width="160" class="logo-light" style="width: 160px; margin-left: 20px"/>
+                                        <img src="./assets/images/logo-light.png" width="160" class="logo-dark" style="width: 160px; margin-left: 20px"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-0 text-center"></div>
+                        <div class="col-lg-3 col-6">
+                            <div class="header-right flex flex-align-c flex-content-e">
+                                <div class="buttons">
+                                    <a href="https://app.ilovetranscriptions.com" class="button fullfield"><i class="las la-headset"></i><span>Inicia sesión</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!-- END SITE HEADER -->
+
+            <!-- BEGIN SITE MAIN -->
+            <main id="main" class="site-main">
+                <div class="site-content pt0 pb0">
+                    <section class="section background-grey background-bottom opt160 spdb overflow-hidden" style="background-image: url(assets/images/wave-01.svg);">
+                        <div class="container">
+                            <div class="heading align-center mb32">
+                                <h2 class="heading-title size-xl">Revoluciona las transcripciones</h2>
+                                <div class="heading-desc size-l">con personalización de IA</div>
+                            </div>
+                            <div class="button-wrap align-center">
+                                <a href="https://app.ilovetranscriptions.com" class="button fullfield" title="Start 14 days Free">Subscribe</a>
+                            </div>
+                            <p class="note align-center">a la versión beta</p>
+                            <div class="images layout-05 mt60">
+                                <div class="inner">
+                                    <img class="img01 wow animate__fadeInUp" src="assets/images/saas-01.png" alt="Image">
+                                    <img class="img02 wow animate__zoomIn" data-wow-delay="0.5s" src="assets/images/saas-02.png" alt="Image">
+                                    <img class="img03 wow animate__zoomIn" data-wow-delay="0.3s" src="assets/images/saas-03.png" alt="Image">
+                                    <img class="img04 wow animate__zoomIn" data-wow-delay="0.1s" src="assets/images/saas-04.png" alt="Image">
+                                    <img class="img05 wow animate__zoomIn" data-wow-delay="0.5s" src="assets/images/saas-02.png" alt="Image">
+                                    <img class="img06 wow animate__zoomIn" data-wow-delay="0.9s" src="assets/images/saas-03.png" alt="Image">
+                                    <img class="img07 wow animate__zoomIn" data-wow-delay="0.7s" src="assets/images/saas-04.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section spdt">
+                        <div class="container">
+                            <div class="heading align-center">
+                                <h2 class="heading-title size-l">Dile adiós a las transcripciones manuales</h2>
+                                <div class="heading-desc">deja que la IA lo haga por ti</div>
+                            </div>
+                            <div class="row flex-align-c">
+                                <div class="col-lg-7">
+                                    <div class="block-video">
+                                        <div class="popup-wrapper ratio br20" style="--bs-aspect-ratio: 67%">
+                                            <img src="assets/images/our-team.jpg" alt="Popup Video">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="pdl60 lg-mt32">
+                                        <div class="block-list layout-03">
+                                            <ul>
+                                                <li>
+                                                    <span class="number background-navy">1</span>
+                                                    <h4 class="title size-l">Sube tu archivo</h4>
+                                                    <p class="desc">Acepta audio, video y links a Youtube y Facebook</p>
+                                                </li>
+                                                <li>
+                                                    <span class="number background-navy">2</span>
+                                                    <h4 class="title size-l">Selecciona el idioma y ajustes</h4>
+                                                    <p class="desc">
+                                                        Soporta Español, Inglés y Japonés.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <span class="number background-navy">3</span>
+                                                    <h4 class="title size-l">Eso es todo!</h4>
+                                                    <p class="desc">Es así de simple, descarga o edita tu transcripción</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section spdt">
+                        <div class="container">
+                            <div class="heading align-center">
+                                <h2 class="heading-title size-l">Sencillo y poderoso</h2>
+                                <div class="heading-desc">crea transcripciones de calidad en poco tiempo</div>
+                            </div>
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6">
+                                    <div class="images layout-03">
+                                        <div class="inner">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="570" height="570" viewBox="0 0 570 570">
+                                                <g fill="none" fill-rule="evenodd">
+                                                    <g fill="var(--sala-shade-background, $shade_background)">
+                                                        <g>
+                                                            <g>
+                                                                <g transform="translate(-134.000000, -2219.000000) translate(-1.000000, 1277.000000) translate(135.000000, 776.000000) translate(0.000000, 166.000000)">
+                                                                    <rect width="570" height="570" rx="285"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            <img class="img15 wow animate__fadeInLeft" src="assets/images/saas-05.png" alt="Banner">
+                                            <img class="img16 wow animate__fadeInRight" src="assets/images/saas-06.png" alt="Banner">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="pdl100 pdr80 lg-mt32">
+                                        <div class="heading mb32">
+                                            <div class="heading-sub color-navy">Transcripción</div>
+                                            <h2 class="heading-title">Transcripción por IA</h2>
+                                            <div class="heading-desc">Transcribe automáticamente audio y video, eliminando así el trabajo manual</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section spdtb">
+                        <div class="container">
+                            <div class="row flex-align-c">
+                                <div class="col-lg-6 lg-order-2">
+                                    <div class="pdr100 pdl80 lg-mt32">
+                                        <div class="heading mb32">
+                                            <div class="heading-sub color-navy">Velocidad</div>
+                                            <h2 class="heading-title">Transcripción rapida</h2>
+                                            <div class="heading-desc">Crea transcripciones en una fracción de lo que se necesita para hacerlo manualmente.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 lg-order-1">
+                                    <div class="images layout-03">
+                                        <div class="inner">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="570" height="570" viewBox="0 0 570 570">
+                                                <g fill="none" fill-rule="evenodd">
+                                                    <g fill="var(--sala-shade-background, $shade_background)">
+                                                        <g>
+                                                            <g>
+                                                                <g transform="translate(-134.000000, -2219.000000) translate(-1.000000, 1277.000000) translate(135.000000, 776.000000) translate(0.000000, 166.000000)">
+                                                                    <rect width="570" height="570" rx="285"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg>
+                                            <img class="img17 wow animate__fadeInRight" src="assets/images/saas-07.png" alt="Banner">
+                                            <img class="img18 wow animate__fadeInLeft" src="assets/images/saas-08.png" alt="Banner">
+                                            <img class="img19 wow animate__fadeInLeft" src="assets/images/saas-09.png" alt="Banner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="section-pricing section spdt">
+                        <div class="container">
+                            <div class="heading align-center">
+                                <h2 class="heading-title size-l">Precios sencillos</h2>
+                            </div>
+                            <div class="pricing-table layout-01 is-active">
+                                <div class="row">
+                                    <div class="">
+                                        <div class="pricing-box">
+                                            <div class="inner background-grey" style="padding-bottom: 40px;">
+                                                <div class="icon">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="64" viewBox="0 0 62 64">
+                                                        <g fill="none" fill-rule="evenodd">
+                                                            <g>
+                                                                <g>
+                                                                    <g>
+                                                                        <g>
+                                                                            <g transform="translate(-535.000000, -1008.000000) translate(0.000000, 900.000000) translate(135.000000, 0.000000) translate(400.000000, 108.000000) translate(0.000000, 0.000000)">
+                                                                                <path fill="#FF1F25" fill-rule="nonzero" d="M62 10.706c0 5.913-4.73 10.706-10.567 10.706H18.028c-5.836 0-10.567-4.793-10.567-10.706C7.461 4.793 12.192 0 18.028 0h33.405C57.27 0 62 4.793 62 10.706z"></path>
+                                                                                <rect width="54.539" height="21.412" x="7.461" y="35.227" fill="#FF1F25" fill-rule="nonzero" rx="10.706" transform="translate(34.730623, 45.933484) rotate(-180.000000) translate(-34.730623, -45.933484)"></rect>
+                                                                                <rect width="50.708" height="17.557" x="1" y="10.216" stroke="var(--sala-neutral-dark, $neutral_dark)" stroke-width="2" rx="8.779" transform="translate(26.353898, 18.994105) rotate(-180.000000) translate(-26.353898, -18.994105)"></rect>
+                                                                                <rect width="50.708" height="17.557" x="1" y="45.443" stroke="var(--sala-neutral-dark, $neutral_dark)" stroke-width="2" rx="8.779" transform="translate(26.353898, 54.221490) rotate(-180.000000) translate(-26.353898, -54.221490)"></rect>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+                                                </div>
+                                                <div class="name">Sólamente un plan</div>
+
+                                                <div class="price">
+                                                    <div class="number">$200 MXN</div> / mes
+                                                </div>
+                                                <div class="desc"><p>¡Obtén dos meses gratis pagando 1 año! ($2000 MXN)</p></div>
+                                                <div class="desc"><strong>Características</strong></div>
+                                                <div class="row">
+                                                    <div class="col-sm">
+                                                        <ul class="list">
+                                                            <li class="active">Transcripciones ilimitadas <small class="text-muted" style="margin-left: 6px;"> *1</small></li>
+                                                            <li class="active">Carga cualquier archivo de audio o video</li>
+                                                            <li class="active">Tamaño máximo de archivo de 2Gb</li>
+                                                            <li class="active">Descarga en TXT, DOC y PDF</li>
+                                                            <li class="active">Descarga subtítulos en SRT (Disponible más adelante)</li>
+                                                            <li class="active">Formatea automáticamente subtítulos usando IA (Disponible más adelante)</li>
+                                                            <li class="active">No conservamos los archivos de video o audio</li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="col-sm">
+                                                        <ul class="list">
+                                                            <li class="active">Transcribe directo de Youtube (Disponible más adelante)</li>
+                                                            <li class="active">Transcribe directo de Facebook (Disponible más adelante)</li>
+                                                            <li class="active">Uso de motores de transcripción alternativos <small class="text-muted" style="margin-left: 6px;">*2</small></li>
+                                                            <li class="active">Posibilidad de aumentar el tiempo de transcripción <small class="text-muted" style="margin-left: 6px;">*3</small></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+
+                                                <div style="width: 100%; margin-top: 20px;">
+                                                    <a href="https://app.ilovetranscriptions.com" class="button fullfield text-center" style="display: inline-block; width: 100%;" title="Get Started">Suscríbete ahora</a>
+                                                </div>
+
+                                                <div style="margin-top: 20px; font-size: 10px; line-height: 14px;">
+                                                    <p class="text-muted text-xs">
+                                                        *1 Las transcripciones ilimitadas sólo aplican para el engine Vossy, el uso de motores alternativos puede tener un costo adicional.
+                                                    </p>
+                                                    <p class="text-muted text-xs">
+                                                        *2 También están disponibles los motores de Open AI y Microsoft Azure por un costo adicional.
+                                                    </p>
+                                                    <p class="text-muted text-xs">
+                                                        *3 Se requiere recargar créditos para poder usar los motores alternativos.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="section-banner background-navy layout-04 mt-5">
+                        <div class="container">
+                            <div class="inner">
+                                <div class="row">
+                                    <div class="col-lg-11">
+                                        <div class="banner-left align-left spdtb pdl80 lg-pdl30 lg-pdr30">
+                                            <div class="heading heading-alway-white">
+                                                <h2 class="heading-title size-xl">Registrate a la versión beta</h2>
+                                                <div class="heading-desc">Y se de los primeros en probar nuestra herramienta</div>
+                                            </div>
+                                            <a href="https://app.ilovetranscriptions.com" style="color: #fff; text-decoration: underline;">Suscríbete ahora</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-1">
+                                        <div class="banner-right layout-02 lg-hidden">
+                                            <img class="wow animate__fadeInRight" src="assets/images/hr-15.png" alt="Banner">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div><!-- SITE CONTENT -->
+            </main>
+            <!-- END SITE MAIN -->
+
+            <!-- BEGIN SITE FOOTER -->
+            <footer id="footer" class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="inner">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="footer-item footer-about">
+                                        <div class="logo">
+                                            <a href="/">
+                                                <img src="./assets/images/logo-dark.png" width="120" class="logo-light" style="width: 120px"/>
+                                                <img src="./assets/images/logo-light.png" width="120" class="logo-dark" style="width: 120px"/>
+                                            </a>
+                                        </div>
+                                        <p>
+                                            Automatiza el trabajo de transcripción de audio y video
+                                            usando mecanismos de machine learning e inteligencia
+                                            artificial.</p>
+                                    </div>
+                                </div>
+                                <div class="col-lg-2">
+                                </div>
+                                <div class="col-lg-2">
+                                </div>
+                                <div class="col-lg-2">
+                                </div>
+                                <div class="col-lg-3">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="inner flex flex-content-sb flex-align-c">
+                            <div class="copyright">© 2024 Komoni Cyber Lab.</div>
+                            <div class="menu">
+                                <ul>
+                                    <li><a href="https://dl.komoni.mx/ilovetranscriptions/tos.html" title="Terms">Términos y condiciones</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- END SITE FOOTER -->
+
+            <!-- BEGIN BACK TO TOP -->
+            <a
+                href="#"
+                id="backtotop"
+                class="backtotop"
+            >
+                <svg
+                    width="28"
+                    height="28"
+                    viewBox="0 0 28 28"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path
+                        d="M5.52344 18.5234C5.3151 18.3151 5.3151 18.0938 5.52344 17.8594L13.7266 9.69531C13.9349 9.46094 14.1432 9.46094 14.3516 9.69531L22.5547 17.8594C22.763 18.0938 22.763 18.3151 22.5547 18.5234L21.7734 19.3047C21.5651 19.5391 21.3438 19.5391 21.1094 19.3047L14.0391 12.2344L6.96875 19.3047C6.73438 19.5391 6.51302 19.5391 6.30469 19.3047L5.52344 18.5234Z"
+                        fill="#ffffff"
+                    ></path>
+                </svg>
+            </a>
+            <!-- END BACK TO TOP -->
+
+            <!-- BEGIN SWITCHER -->
+            <div class="dl-switcher">
+                <div class="item">
+                    <span class="state dark" data-text="Dark">Dark</span>
+                    <span class="state light" data-text="Light">Light</span>
+                </div>
+                <div class="toddler">Light</div>
+            </div>
+            <!-- END SWITCHER -->
+        </div>
+
+        <!-- jQuery -->
+        <script src="assets/js/jquery-1.12.4.js"></script>
+        <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
+        <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
+        <script src="assets/libs/counter/jquery.counterup.min.js"></script>
+        <script src="assets/libs/wowjs/wow.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
