@@ -59,43 +59,19 @@
         <div id="wrapper">
             <div id="preload" class="preload"><div class="spin"></div></div>
             <!-- BEGIN SITE HEADER -->
-            <header id="header" class="site-header is-transparent">
+            <header class="site-header is-transparent">
                 <div class="container-fluid">
-                    <div class="row flex-align-c inner">
-                        <div class="col-lg-3 col-6">
-                            <div class="header-left flex flex-align-c">
-                                <div class="canvas-menu">
-                                    <div class="icon">
-                                        <a href="#">
-                                            <svg width="30px" height="14px" viewBox="0 0 30 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                                <g   stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                                    <g transform="translate(-50.000000, -33.000000)" fill="#111111">
-                                                        <g id="off-menu" transform="translate(50.000000, 28.000000)">
-                                                            <g id="icon-menu" transform="translate(0.000000, 5.000000)">
-                                                                <rect id="Rectangle-1" x="0" y="0" width="30" height="3" rx="1.5"></rect>
-                                                                <rect id="Rectangle-2" x="0" y="11" width="20" height="3" rx="1.5"></rect>
-                                                            </g>
-                                                        </g>
-                                                    </g>
-                                                </g>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="logo">
-                                    <a href="/">
-                                        <img src="./assets/images/logo-dark.png" width="160" class="logo-light" style="width: 160px; margin-left: 20px"/>
-                                        <img src="./assets/images/logo-light.png" width="160" class="logo-dark" style="width: 160px; margin-left: 20px"/>
-                                    </a>
-                                </div>
-                            </div>
+                    <div class="flex">
+                        <div class="flex-grow-1">
+                            <a href="/">
+                                <img src="./assets/images/logo-dark.png" width="160" class="logo-light" style="width: 160px; margin-left: 20px"/>
+                                <img src="./assets/images/logo-light.png" width="160" class="logo-dark" style="width: 160px; margin-left: 20px"/>
+                            </a>
                         </div>
-                        <div class="col-lg-6 col-0 text-center"></div>
-                        <div class="col-lg-3 col-6">
-                            <div class="header-right flex flex-align-c flex-content-e">
-                                <div class="buttons">
-                                    <a href="https://app.ilovetranscriptions.com" class="button fullfield"><i class="las la-headset"></i><span>Inicia sesión</span></a>
-                                </div>
+                        <div class="flex-grow-1 flex">
+                            <div style="margin-left: auto;" class="flex flex-align-e">
+                                <a href="https://api.ilovetranscriptions.com/api/auth" class="button d-none d-sm-block">Inicia sesión</a>
+                                <a href="https://app.ilovetranscriptions.com" class="button fullfield">Suscríbete</a>
                             </div>
                         </div>
                     </div>
@@ -110,12 +86,12 @@
                         <div class="container">
                             <div class="heading align-center mb32">
                                 <h2 class="heading-title size-xl">Revoluciona las transcripciones</h2>
-                                <div class="heading-desc size-l">con personalización de IA</div>
+                                <div class="heading-desc size-l">usando Machine Learning</div>
                             </div>
                             <div class="button-wrap align-center">
-                                <a href="https://app.ilovetranscriptions.com" class="button fullfield" title="Start 14 days Free">Subscribe</a>
+                                <a href="https://app.ilovetranscriptions.com" class="button fullfield">Suscríbete</a>
                             </div>
-                            <p class="note align-center">a la versión beta</p>
+                            <p class="note align-center">versión beta</p>
                             <div class="images layout-05 mt60">
                                 <div class="inner">
                                     <img class="img01 wow animate__fadeInUp" src="assets/images/saas-01.png" alt="Image">
@@ -278,13 +254,14 @@
                                                         </g>
                                                     </svg>
                                                 </div>
-                                                <div class="name">Personal</div>
-                                                <div style="margin-top: -18px; font-size: 12px; margin-bottom: 12px;">Para uso exclusivamente personal, el plan para empresas se anunciará pronto.</div>
+                                                <div class="name">Plan personal</div>
+                                                <div style="margin-top: -18px; font-size: 12px; margin-bottom: 12px;">Para uso exclusivamente personal, <strong>el plan para empresas se anunciará pronto.</strong></div>
 
                                                 <div class="price">
                                                     <div class="number">$200 MXN</div> / mes
                                                 </div>
                                                 <div class="desc"><p>¡Obtén dos meses gratis pagando 1 año! ($2000 MXN)</p></div>
+                                                <div style="margin-top: -30px; font-size: 10px; margin-bottom: 6px;">Para usuarios que se encuentren fuera de México, el costo es de 12 USD mensuales o 120 USD anuales.</div>
                                                 <div class="desc"><strong>Características</strong></div>
                                                 <div class="row">
                                                     <div class="col-sm">
